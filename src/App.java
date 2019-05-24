@@ -2,6 +2,6 @@ import rsk.*;
 
 public class App {
     public static void main(String[] args) {
-        DisplayFunctions.display("Hello, World from java");
+        DisplayFunctions.log("Hello, World from java");
     }
 }

@@ -3,10 +3,10 @@
 package rsk
 
 fun main(args: Array<String>) {
-    display("Hello, World")
+    log("Hello, World", 2)
 }
 
-fun display(message:String) : Boolean {
-    println(message)
-    return true
+@JvmOverloads
+fun log(message: String, logLevel: Int = 1) {
+    println(message + logLevel)
 }
