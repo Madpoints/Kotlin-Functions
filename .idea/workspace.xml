@@ -33,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rsk/Infix.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rsk/Tailrec.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -76,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/rsk/Program.kt" />
         <option value="$PROJECT_DIR$/src/rsk/Expression.kt" />
         <option value="$PROJECT_DIR$/src/rsk/Infix.kt" />
+        <option value="$PROJECT_DIR$/src/rsk/Tailrec.kt" />
       </list>
     </option>
   </component>
@@ -145,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.rsk.InfixKt">
+  <component name="RunManager" selected="Kotlin.rsk.TailrecKt">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="kotlin-functions" />
@@ -205,15 +215,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="rsk.TailrecKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-functions" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="rsk.TailrecKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Kotlin.ProgramKt" />
       <item itemvalue="Kotlin.rsk.ExpressionKt" />
       <item itemvalue="Application.App" />
       <item itemvalue="Kotlin.rsk.DisplayFunctions" />
       <item itemvalue="Kotlin.rsk.InfixKt" />
+      <item itemvalue="Kotlin.rsk.TailrecKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.rsk.TailrecKt" />
         <item itemvalue="Kotlin.rsk.InfixKt" />
         <item itemvalue="Kotlin.rsk.ExpressionKt" />
         <item itemvalue="Kotlin.rsk.DisplayFunctions" />
@@ -231,12 +256,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558717468277</updated>
-      <workItem from="1558717474262" duration="4173000" />
+      <workItem from="1558717474262" duration="5118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4173000" />
+    <option name="totallyTimeSpent" value="5118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="838" height="1050" extended-state="0" />
@@ -335,8 +360,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rsk/Infix.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rsk/Tailrec.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
